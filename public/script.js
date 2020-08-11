@@ -1,6 +1,7 @@
 var LOAD_NUM = 4;
 var watcher;
-
+setTimeout(function() {
+    
 new Vue({
     el: "#app",
     data: {
@@ -86,3 +87,4 @@ new Vue({
         }
     }
 });
+}, 1000);

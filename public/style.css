@@ -207,10 +207,6 @@ body {
     padding-left: 1rem;
 }
 
-.cart .empty-cart {
-
-}
-
 .cart > h2 {
     margin-top: 0;
     font-size: 1.25rem;
@@ -286,6 +282,19 @@ body {
 
 .fade-enter-active {
     transition: opacity 0.5s;
+}
+
+[v-cloak] > #loading {
+    display: block;
+    padding: 1em;
+}
+
+[v-cloak] > * {
+    display: none;
+}
+
+#loading {
+    display: none;
 }
 
 @media (max-width: 1200px) {
